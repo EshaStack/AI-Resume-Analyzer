@@ -85,8 +85,7 @@ with st.sidebar:
         "3. Click **Analyze Resume**\n"
         "4. Read your dashboard and tips"
     )
-   st.info("🔒 Your resume is processed by this hosted app. Avoid uploading resumes containing sensitive personal information.")
-
+    st.info("🔒 Your resume is processed by this hosted app. Avoid uploading resumes containing sensitive personal information.")
 # ------------------------------------------------------------------
 # Inputs
 # ------------------------------------------------------------------
