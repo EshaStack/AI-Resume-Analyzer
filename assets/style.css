@@ -1,0 +1,54 @@
+/* ---------- Page ---------- */
+.stApp { background-color: #F4F9FF; }
+#MainMenu, footer { visibility: hidden; }
+.block-container { padding-top: 2rem; max-width: 1200px; }
+
+/* ---------- Header banner ---------- */
+.hero {
+    background: linear-gradient(135deg, #0A2540 0%, #1E3A8A 100%);
+    border-radius: 16px;
+    padding: 1.8rem 2rem;
+    margin-bottom: 1.5rem;
+}
+.hero h1 { color: #FFFFFF; margin: 0; font-size: 2rem; }
+.hero p  { color: #BAE6FD; margin: 0.4rem 0 0 0; font-size: 1.05rem; }
+
+/* ---------- Cards ---------- */
+.card {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: 0 4px 14px rgba(10, 37, 64, 0.08);
+    border-top: 4px solid #38BDF8;
+    margin-bottom: 1rem;
+    min-height: 150px;
+}
+.card h3 { color: #0A2540; font-size: 1.05rem; margin: 0 0 0.7rem 0; }
+.big-number { font-size: 2.6rem; font-weight: 800; color: #1E3A8A; line-height: 1; margin-bottom: 0.7rem; }
+.big-number span { font-size: 1rem; font-weight: 600; color: #64748B; }
+.muted { color: #64748B; font-size: 0.9rem; margin: 0.6rem 0 0 0; }
+
+/* ---------- Progress bars ---------- */
+.bar-bg   { background: #E0F2FE; border-radius: 999px; height: 14px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, #38BDF8, #1E3A8A); }
+.bar-row  { display: flex; justify-content: space-between; color: #0A2540; font-size: 0.92rem; margin: 0.7rem 0 0.25rem 0; }
+
+/* ---------- Skill chips (wrap on small screens) ---------- */
+.chip { display: inline-block; padding: 0.3rem 0.8rem; margin: 0.2rem 0.25rem 0.2rem 0; border-radius: 999px; font-size: 0.88rem; font-weight: 600; }
+.chip-ok   { background: #E0F2FE; color: #0A2540; border: 1px solid #38BDF8; }
+.chip-miss { background: #FEE2E2; color: #991B1B; border: 1px solid #FCA5A5; }
+.chip-tech { background: #1E3A8A; color: #FFFFFF; }
+.chip-soft { background: #BAE6FD; color: #0A2540; }
+
+/* ---------- Suggestions list ---------- */
+.tips { padding-left: 1.2rem; margin: 0; color: #0A2540; }
+.tips li { margin-bottom: 0.55rem; line-height: 1.45; }
+
+/* ---------- Button ---------- */
+.stButton > button { border-radius: 10px; font-weight: 600; }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 768px) {
+    .hero h1 { font-size: 1.5rem; }
+    .big-number { font-size: 2.1rem; }
+}

@@ -1,0 +1,18 @@
+Junior Data Analyst / Python Developer
+
+We are looking for a motivated Junior Data Analyst to join our growing analytics team.
+
+Responsibilities:
+- Analyze large datasets using Python, SQL and pandas to uncover business insights.
+- Build dashboards and reports using Tableau or Power BI.
+- Develop machine learning models with scikit-learn to predict customer behavior.
+- Deploy and maintain data pipelines on AWS using Docker.
+- Use Git for version control and follow Agile practices.
+- Present findings to stakeholders with strong communication skills.
+
+Requirements:
+- Bachelor's degree in Computer Science, Statistics or a related field.
+- Strong knowledge of Python, SQL, Excel and data visualization.
+- Experience with machine learning and statistics.
+- Good problem solving, teamwork and time management skills.
+- Familiarity with Linux and REST API integration is a plus.
